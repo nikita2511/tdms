@@ -1,0 +1,126 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+#sidenav{
+
+  width: 15%;
+  position: absolute;
+  height: 600px;
+
+}
+
+.navbar{
+height: 100px;
+position: fixed;
+
+}
+#footer{
+
+  height: 70px;
+ margin-top: 25%;
+  
+}
+
+#dashboard{
+
+  margin-left: 18%;
+  margin-top: 2%;
+  width: 80%;
+}
+#permissions{
+
+  margin-left: 30%;
+}
+
+#addpermissionform{
+height: 300px;
+ width: 30%;
+
+}
+#sidemenu{
+
+  margin-top: 10%;
+}
+
+#sidenav ul li:hover{
+  background-color: #CFD8DC;
+  color: black;
+  transition-duration: .5s;
+}
+.module:hover{
+background-color:#CFD8DC ;
+color: black;
+transition-duration: .5s;
+}
+
+
+#view_table{
+
+  width: 80%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+#roles_checkbox{
+width: 30%;
+
+}
+
+#modules{
+
+margin-left: 20%;
+width: 80%;
+height: 200px;
+margin-top: 2%;
+
+}
+
+#module_list_container{
+margin-left: 35%;
+margin-top: 8%;
+width: 30%;
+background-color: #ecf0f1;
+
+
+}
+
+#listpermission{
+width: 80%;
+
+}
